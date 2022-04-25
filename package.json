@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-products-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "sharp": "^0.30.4"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.25",
+    "@types/react": "18.0.6",
+    "@types/react-dom": "18.0.2",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "typescript": "4.6.3"
+  }
+}
