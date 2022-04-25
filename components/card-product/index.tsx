@@ -27,8 +27,10 @@ export const CardProduct = (product: Product) => {
 
   return (
     <div className={styles.card} onClick={handleOpenProduct}>
-      <span hidden>{product.id}</span>
-      <span>{product.name}</span>
+      <header>
+        <span hidden>{product.id}</span>
+        <span>{product.name}</span>
+      </header>
       <Image src={`/${product.imageURL}`} alt='product image' width={250} height={200}/>
       <section className={cardStyles.cardFooter}>
         <span>Price: {price}</span>

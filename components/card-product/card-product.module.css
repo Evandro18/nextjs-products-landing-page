@@ -3,4 +3,5 @@
   align-items: center;
   justify-items: center;
   justify-content: space-between;
+  color: var(--secondary-color);
 }

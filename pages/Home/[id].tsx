@@ -17,7 +17,9 @@ const ProductPage = ({ product }: ProductPageProps) => {
   return (
     <BookmarksContextProvider>
       <main className={styles.main}>
-        <CardProduct  {...product} />
+        <section className={styles.details}>
+          <CardProduct  {...product} />
+        </section>
       </main>
     </BookmarksContextProvider>
   )

@@ -1,0 +1,9 @@
+.favoriteIcon {
+  color: var(--primary-color);
+}
+
+.favoriteIcon:active
+.favoriteIcon:focus
+.favoriteIcon:hover {
+  color: var(--primary-color);
+}
