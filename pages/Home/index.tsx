@@ -1,13 +1,15 @@
 import type { GetStaticPropsContext, GetStaticPropsResult, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
+import { useCallback, useEffect, useRef, useState, useTransition } from 'react'
 import { CardProduct } from '../../components/card-product'
 import { BookmarksContextProvider } from '../../context/bookmarks-context-provider'
 import styles from '../../styles/Home.module.css'
-import { ProductsResult } from '../../types/product'
+import { Product, ProductsResult } from '../../types/product'
 import { products } from '../api/products'
 
 function Home (props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { products } = props;
+
   return (
     <BookmarksContextProvider>
       <div className={styles.container}>

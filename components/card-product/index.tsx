@@ -5,7 +5,7 @@ import cardStyles from './card-product.module.css'
 import { toBRLCurrency } from '../../utils/currency-formatter'
 import { Favorite } from '../favorite'
 import { useFavorite } from '../../hooks/use-favorite-hook'
-import React, { MouseEvent, MouseEventHandler, useContext } from 'react'
+import React, { MouseEvent, useContext } from 'react'
 import { bookmarksContext } from '../../context/favorite-context'
 import { useRouter } from 'next/router'
 
