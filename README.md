@@ -1,4 +1,4 @@
-The proposal is to create a static web page with a list of products to be marked as favorites.
+The proposal is to create a static web page with a list of products to be marked as favorites. The SSG is marked to 30 seconds and revalidate time is marked to 30 seconds too.
 
 ## Technologies
   * React
